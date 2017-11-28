@@ -1,4 +1,4 @@
-package org.koushik.javabrains.messenger.resources;
+package org.singh.messenger.resources;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.CookieParam;

@@ -1,4 +1,4 @@
-package org.koushik.javabrains.messenger.resources;
+package org.singh.messenger.resources;
 
 import java.net.URI;
 import java.util.List;
@@ -17,9 +17,9 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriInfo;
 
-import org.koushik.javabrains.messenger.model.Message;
-import org.koushik.javabrains.messenger.resources.beans.MessageFilterBean;
-import org.koushik.javabrains.messenger.service.MessageService;
+import org.singh.messenger.model.Message;
+import org.singh.messenger.resources.beans.MessageFilterBean;
+import org.singh.messenger.service.MessageService;
 
 @Path("/messages")
 @Consumes(MediaType.APPLICATION_JSON)

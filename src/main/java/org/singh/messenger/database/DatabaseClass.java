@@ -1,10 +1,10 @@
-package org.koushik.javabrains.messenger.database;
+package org.singh.messenger.database;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import org.koushik.javabrains.messenger.model.Message;
-import org.koushik.javabrains.messenger.model.Profile;
+import org.singh.messenger.model.Message;
+import org.singh.messenger.model.Profile;
 
 public class DatabaseClass {
 

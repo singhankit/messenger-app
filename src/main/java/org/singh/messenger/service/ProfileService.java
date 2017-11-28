@@ -1,18 +1,18 @@
-package org.koushik.javabrains.messenger.service;
+package org.singh.messenger.service;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import org.koushik.javabrains.messenger.database.DatabaseClass;
-import org.koushik.javabrains.messenger.model.Profile;
+import org.singh.messenger.database.DatabaseClass;
+import org.singh.messenger.model.Profile;
 
 public class ProfileService {
 
 	private Map<String, Profile> profiles = DatabaseClass.getProfiles();
 	
 	public ProfileService() {
-		profiles.put("koushik", new Profile(1L, "koushik", "Koushik", "Kothagal"));
+		profiles.put("singh", new Profile(1L, "singh", "singh", "ankit"));
 	}
 	
 	public List<Profile> getAllProfiles() {

@@ -1,4 +1,4 @@
-package org.koushik.javabrains.messenger.resources;
+package org.singh.messenger.resources;
 
 import java.util.List;
 
@@ -12,8 +12,8 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import org.koushik.javabrains.messenger.model.Profile;
-import org.koushik.javabrains.messenger.service.ProfileService;
+import org.singh.messenger.model.Profile;
+import org.singh.messenger.service.ProfileService;
 
 @Path("/profiles")
 @Consumes(MediaType.APPLICATION_JSON)

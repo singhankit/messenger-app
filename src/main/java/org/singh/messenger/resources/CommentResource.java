@@ -1,4 +1,4 @@
-package org.koushik.javabrains.messenger.resources;
+package org.singh.messenger.resources;
 
 import java.util.List;
 
@@ -12,8 +12,8 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import org.koushik.javabrains.messenger.model.Comment;
-import org.koushik.javabrains.messenger.service.CommentService;
+import org.singh.messenger.model.Comment;
+import org.singh.messenger.service.CommentService;
 
 @Path("/")
 @Produces(MediaType.APPLICATION_JSON)

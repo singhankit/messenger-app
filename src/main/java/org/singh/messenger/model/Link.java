@@ -1,4 +1,4 @@
-package org.koushik.javabrains.messenger.model;
+package org.singh.messenger.model;
 
 public class Link {
 	private String link;

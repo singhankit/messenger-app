@@ -1,4 +1,4 @@
-package org.koushik.javabrains.messenger.service;
+package org.singh.messenger.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,10 +9,10 @@ import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
 
-import org.koushik.javabrains.messenger.database.DatabaseClass;
-import org.koushik.javabrains.messenger.model.Comment;
-import org.koushik.javabrains.messenger.model.ErrorMessage;
-import org.koushik.javabrains.messenger.model.Message;
+import org.singh.messenger.database.DatabaseClass;
+import org.singh.messenger.model.Comment;
+import org.singh.messenger.model.ErrorMessage;
+import org.singh.messenger.model.Message;
 
 public class CommentService {
 	
@@ -24,7 +24,7 @@ public class CommentService {
 	}
 	
 	public Comment getComment(long messageId, long commentId) {
-		ErrorMessage errorMessage = new ErrorMessage("Not found", 404, "http://javabrains.koushik.org");
+		ErrorMessage errorMessage = new ErrorMessage("Not found", 404, "http://google.com");
 		Response response = Response.status(Status.NOT_FOUND)
 				.entity(errorMessage)
 				.build();

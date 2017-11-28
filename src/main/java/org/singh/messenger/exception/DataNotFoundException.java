@@ -1,4 +1,4 @@
-package org.koushik.javabrains.messenger.exception;
+package org.singh.messenger.exception;
 
 public class DataNotFoundException extends RuntimeException {
 

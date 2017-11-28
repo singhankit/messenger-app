@@ -1,4 +1,4 @@
-package org.koushik.javabrains.messenger.resources.beans;
+package org.singh.messenger.resources.beans;
 
 import javax.ws.rs.QueryParam;
 
